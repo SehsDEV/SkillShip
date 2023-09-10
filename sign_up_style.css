@@ -1,0 +1,71 @@
+body, h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  .signup-container h2 {
+    padding: 5%;
+
+  }
+  
+  input, select, label {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input.error-input, select.error-input {
+    border-color: #ff0000;
+  }
+
+  label > input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  label > input[type="checkbox"]:focus {
+    outline: 3px solid #ccc;
+  }
+
+  #signup-button {
+    border:none;
+    border-style:none;
+    border-radius: 5px;
+    background-color: #ff9900;
+    font-size: 105%;
+    height: 4%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position:unset;
+    color: white;
+    text-align: center;     
+    width: auto;
+    padding: 3%;      
+}
+
+
+#signup-button:hover {
+  background-color: black;
+  color: white;
+}
+
+  #message-container {
+margin-top: 10px;
+padding: 10px;
+border-radius: 5px;
+font-weight: bold;
+text-align: center;
+}
+
+.error-message {
+background-color: #ffdddd;
+border: 1px solid #ff0000;
+color: #ff0000;
+}
