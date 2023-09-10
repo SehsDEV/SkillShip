@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/courses/each_course_page.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css">
+            <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="/assets/Logo3.svg"  type="image/svg+xml">
+        <title>Skill Ship | Web Development Fundamentals</title>
+</head>
+<body>
+  <nav>
+      <ul class="navigation">
+     <li class="Logo1"><a href="/index.html"><img src="/assets/Logo2.svg" alt="Logo1"></a></li>
+     <li><a href="/courses.html">Courses</a></li>
+     <li><a href="/about_us.html">About Us</a></li>
+     <li><a href="/contact_us.html">Contact Us</a></li>
+      </ul>
+      <div class="not_avlble" id="not-available-box">
+        <h3>We are sorry, This Feature Is Not Available</h3>
+        <div class="line_anim">&nbsp;</div>
+    </div>
+    </nav>
+    <div class="Login">
+      <div class="sign_up">
+      <a href="/sign_up.html"><button class="btn btn-outline-light btn">Sign Up</button></a>
+      </div>
+      <div class="log_in">
+      <button class="custom-btn"  id="show-not-available-btn"> Log in </button>
+      </div>
+    </div>
+    <div class="back-to-top-btn" id="backToTopBtn" ><span class="arrow-up-icon">&#8593;</span></div> 
+    <main>
+        <div class="course-page">              
+                <!-- Course Title and Level -->
+                <div class="course-container">
+                    <h2>Web Development Fundamentals</h2>
+                    <p>Learn the basics of HTML, CSS, and JavaScript to create stunning websites.</p>
+                    <div class="course-details">
+                        <div class="course-rating">
+                            <span class="rating">4.4</span>
+                            <span class="rating-text">Rating: 4.4 out of 5</span>
+                            <span class="ratings-count">(15,023 ratings)</span>
+                            <div class="students-count">102,119 students</div>
+                        </div>
+                    </div>
+                    <p>Created by <span class="instructor">Osama Elzero</span></p>
+                    <p>Last updated 08/2023</p>
+                    <p>Languages: English, Arabic &nbsp; <span class="course-price">$49.99</span>
+                    </p>
+                    <div class="course-enroll">
+                        <a href="Web_Development_Fundamentals_vids.html" class="enroll-button">Enroll Now</a>
+                    </div>
+                    <span class="course-duration">6 weeks</span>
+                        <div id="video-player">
+                            <video controls poster="">
+                                <source src="/assets/Introduction to Web Development __ Setup __ Part 1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                    </div>                          
+           </div>
+
+        <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        const player = new Plyr('#video-player video', {
+                            controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'],
+                            hideControls: false, // Show controls on load
+                        });
+                    });
+                </script>
+                
+         
+            <!-- Enrollment Button -->
+            <div class="buy_container">
+        <div class="course-includes">
+            <h2>Course Includes:</h2>
+            <ul>
+                <li>5 hours of on-demand video</li>
+                <li>3 articles</li>
+                <li>1 downloadable resource</li>
+                <li>Full lifetime access</li>
+                <li>Access on mobile and TV</li>
+                <li>Certificate of completion</li>
+            </ul>
+        </div>
+        <a class="cta-button" href="/Checkout.html">Buy Now</a>
+        <br>
+         </div>
+
+            <!-- Course Features Section -->
+
+            <div class="course-features">
+                <br><br><br>
+                <h2>Course Features</h2>
+                <ul>
+                    <li>Hands-on Projects and Exercises</li>
+                    <li>Interactive Quizzes and Assignments</li>
+                    <li>Live Coding Sessions</li>
+                </ul>
+            </div>
+    
+            <!-- Reviews and Ratings Section -->
+            <div class="course-reviews">
+                <h2>Reviews</h2>
+                <div class="course-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>"This course provided a solid foundation for web development. The instructor was knowledgeable and engaging."</p>
+            </div>
+    
+            <!-- Call to Action Section -->
+            <div class="course-cta">
+                <h2>Ready to Get Started?</h2>
+                <p>Join the Web Development Fundamentals course and kickstart your journey to becoming a skilled web developer.</p>
+                <a href="Web_Development_Fundamentals_vids.html" class="enroll-button">Enroll Now</a>
+            </div>
+        </div>
+  </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <p>&copy; 2023 Skill Ship. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.twitter.com"target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com"target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com"target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+      <script src="/script.js"></script>
+</body>
+      </html>
